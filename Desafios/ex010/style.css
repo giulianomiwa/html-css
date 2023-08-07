@@ -1,0 +1,135 @@
+@charset "UTF-8"; 
+
+*{
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format(opentype), url('fontes/idroid.otf') format(truetype);
+}
+
+.cabecalho {
+    background:linear-gradient(0deg, rgba(19,175,36,1) 65%, rgba(138,240,149,1) 100%);
+    
+}
+
+#introducao {
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 35px;
+    font-size: 45px;
+    
+}
+
+.image-100 {
+    width: 100%;
+    height: auto;
+}
+
+.conteudo-cabecalho {
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 50px;
+    font-size: 20px;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+}
+
+.cabecalho-menu-item {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 20px;
+    
+}
+
+body {
+    background-color: #8af095;
+    margin: 0;
+}
+
+.conteudo-principal {
+    background-color: white;
+    margin: 0px 250px;
+    padding: 40px 20px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Android';
+    font-size: 40px;
+    color: #066611;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family:'Android';
+    font-size: 35px;
+    color:#066611;
+    background-color: #0666111a;
+}
+
+span {
+    color:#066611;
+    font-weight: bold;
+}
+
+a   {
+    color:#066611;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.conteudo-secundario-paragrafo {
+    text-indent: 30px;
+    
+}
+#introducao {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.bugdroid-area {
+    width: 100%;
+    text-align: center;
+}
+
+.video-area {
+    background-color: #1a5c38;
+    padding: 20px 40px;
+}
+
+.conteudo-principal-escrito-titulo2 {
+    color: white;
+    background-color: #2fa866;
+    border-radius: 5px 5px 0 0;
+    padding: 13px;
+}
+
+.conteudo-final {
+    color:black;
+    background-color: #c5ebd6;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+
+.divisao-lista ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.conteudo-lista-item::before {
+     content: ' ✔ ';
+}
+
+.rodape-conteudo {
+    color: white;
+    background-color: #1a5c38;
+    padding: 10px;
+    text-align: center;
+}
